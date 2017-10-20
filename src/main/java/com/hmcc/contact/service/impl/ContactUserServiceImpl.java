@@ -103,6 +103,7 @@ public class ContactUserServiceImpl implements ContactUserService {
                 Timestamp timestamp = new Timestamp(date.getTime());
                 contactUser.setCreateTime(timestamp);
             }
+            
 
             if(1==1){
                 contactUser.setCreateManagerId(contactAdminNum.toString());
